@@ -1,73 +1,107 @@
+<img align="center" src="docs/logo.png" alt="Currency Transaction">
+    
+<h4 align="center">
+    <a href="#">Live demo</a>
+</h4>
+
+<h3 align="center">
+    Simple, fast and reactive application to convert values between all currencies.
+</h3>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dansilva41/currency-transaction-ts?color=%2304D361">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dansilva41/currency-transaction-ts">
+
+  <a href="https://github.com/dansilva41/currency-transaction-ts/commits/main" target="_blank">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dansilva41/currency-transaction-ts">
+  </a>
+
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/dansilva41/currency-transaction-ts/stargazers" target="_blank">
+    <img alt="MIT License" src="https://img.shields.io/github/stars/dansilva41/currency-transaction-ts?style=social">
+  </a>
+
+  <a href="https://danilosilva.tk" target="_blank">
+    <img alt="made by Danilo Silva" src="https://img.shields.io/badge/made%20by-Danilo%20Silva-blue">
+  </a>
+
+  <a href="https://developers-friends.gitbook.io/" target="_blank">
+    <img alt="Developer's Friends" src="https://img.shields.io/badge/Blog-Developers%20Friends-orange">
+    </a> 
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+<p align="center">
+ <a href="#dizzy-about">About</a> •
+ <a href="#mega-features">Features</a> • 
+ <a href="#rocket-technologies-and-motivation">Technologies and motivation</a> •
+ <a href="#computer-building-locally">Building Locally</a> •
+ <a href="#memo-license">License</a>
+
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## :dizzy: About
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This application is designed with currency-based value conversion in mind, where the focus is to get the conversion rates from an [external api](https://exchangeratesapi.io),
+perform the conversion calculations, persist the data and return to consistent data.
+In addition to offering performance due to its reactive behavior, the application provides a way to consult the conversions already carried out by the user.
 
-## Installation
+---
+## :mega: Features
+
+|          Actions                                  |     Available       |
+| --------------------------                        | :-----------------: |
+| Converting value between all currencies           |         ✔️           |
+| Get all conversions performed by user             |         ✔️           |
+
+---
+
+## :rocket: Technologies and motivation
+
+The project was developed using the following technologies
+
+- [NestJS](https://nestjs.com/): Is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+- [NodeJS](https://nodejs.org/): As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
+- [GitHub Actions](https://github.com/features/actions): As CI / CD process GitHub Actions provides a simple, powerful, integrated with various cloud providers and with the processing power and full feedback, therefore, it fulfills the final release of this product.
+
+---
+
+## :computer: Building Locally
+
+### Requirements
+
+- [NodeJS](https://nodejs.org/)
+
+### Install
+
+1. Clone the repository
+
+   `git clone git@github.com:DanSilva41/currency-transaction-ts.git`
+
+2. Enter directory
+   
+    `cd currency-transaction-ts`
+
+3. Install dependencies
+   
+    `npm install`
+
+### Run application
 
 ```bash
-$ npm install
+    `npm run start`
+    # development mode
+    `npm run start:dev`
+    # production mode
+    `npm run start:prod`
 ```
 
-## Running the app
+Open http://localhost:3000
 
-```bash
-# development
-$ npm run start
+---
 
-# watch mode
-$ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/dansilva41/currency-transaction-ts/blob/main/LICENSE) for more information.
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Developed by Danilo Silva :wave: [Get in touch!](https://www.linkedin.com/in/danilosilvap/)
