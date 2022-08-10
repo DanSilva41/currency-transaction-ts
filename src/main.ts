@@ -15,7 +15,7 @@ async function bootstrap() {
   app.useGlobalInterceptors(new LoggingInterceptor(new LoggerService()));
 
   const config = new DocumentBuilder()
-    .setTitle('Currency Transaction')
+    .setTitle('Currency Exchange')
     .setDescription('The currency transaction API')
     .setVersion('0.1.0')
     .build();

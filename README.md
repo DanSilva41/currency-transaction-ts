@@ -1,34 +1,17 @@
-<img align="center" src="docs/logo.png" alt="Currency Transaction">
+<img align="center" src="docs/logo.png" alt="Currency Exchange">
     
 <h4 align="center">
     <a href="#">Live demo</a>
 </h4>
 
 <h3 align="center">
-    Simple, fast and reactive application to convert values between all currencies.
+    Simple, fast and asynchronous application to convert values between all currencies.
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dansilva41/currency-transaction-ts?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dansilva41/currency-transaction-ts">
-
-  <a href="https://github.com/dansilva41/currency-transaction-ts/commits/main" target="_blank">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dansilva41/currency-transaction-ts">
-  </a>
-
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/dansilva41/currency-transaction-ts/stargazers" target="_blank">
-    <img alt="MIT License" src="https://img.shields.io/github/stars/dansilva41/currency-transaction-ts?style=social">
-  </a>
-
   <a href="https://danilosilva.tk" target="_blank">
     <img alt="made by Danilo Silva" src="https://img.shields.io/badge/made%20by-Danilo%20Silva-blue">
   </a>
-
-  <a href="https://developers-friends.gitbook.io/" target="_blank">
-    <img alt="Developer's Friends" src="https://img.shields.io/badge/Blog-Developers%20Friends-orange">
-    </a> 
 </p>
 
 <p align="center">
@@ -76,7 +59,7 @@ The project was developed using the following technologies
 
 1. Clone the repository
 
-   `git clone git@github.com:DanSilva41/currency-transaction-ts.git`
+   `git clone git@github.com:jaya/currency-exchange-clean-arch-nodejs.git`
 
 2. Enter directory
    
@@ -102,6 +85,6 @@ Open http://localhost:3000
 
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/dansilva41/currency-transaction-ts/blob/main/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/jaya/currency-exchange-clean-arch-nodejs/blob/main/LICENSE) for more information.
 
 Developed by Danilo Silva :wave: [Get in touch!](https://www.linkedin.com/in/danilosilvap/)
