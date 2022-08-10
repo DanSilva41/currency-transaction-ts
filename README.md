@@ -51,8 +51,8 @@ In addition to offering performance due to its reactive behavior, the applicatio
 
 |          Actions                                  |     Available       |
 | --------------------------                        | :-----------------: |
-| Converting value between all currencies           |         ✔️           |
-| Get all conversions performed by user             |         ✔️           |
+| Converting value between all currencies           |         ❌          |
+| Get all conversions performed by user             |         ❌          |
 
 ---
 
